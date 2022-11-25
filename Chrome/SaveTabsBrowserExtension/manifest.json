@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Tabs URI saver",
+    "description": "This extension allows to save into a text file the uri of tabs currently open in the browser window.",
+    "version": "0.1",
+    "permissions": [
+        "tabs",
+        "downloads"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
